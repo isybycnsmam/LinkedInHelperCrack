@@ -1,0 +1,14 @@
+POST https://linkedhelper.com/installs/register HTTP/1.1
+Host: linkedhelper.com
+Connection: keep-alive
+Content-Length: 314
+Origin: chrome-extension://ggmfnfhhfapdhpbhpfhllhdlimdghmaa
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+DNT: 1
+Content-Type: application/json;charset=UTF-8
+Accept: */*
+Referer: https://www.linkedin.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6
+
+{"secret_key":"OWTUTjPDRCX4yTURPNUFUTF4lNVE01cWpPaVluY2l3aUkyTWpMM01UTnZrb11oWldZVEJDTXdEQFakx3Y3pOejRDTXVVek52DSAdidkYURCUet2dDJZbGRFSWx0V2FzQkNMTTFFVkl0RUtnWWXpNdWN6TTE4DSRwdGtZbGRWWnNCSGNCQlNLssdlEZWdzRE4yDfdhWEJ5T3DUPAQ014Q69UNWT0J5YzM5R1p1bDRCVb0FDTXVVekxoeEdicHAzYk5KASD9pRVdkaXdDTTFZRE8zRWpOMllqT0p5ZQQQ=="}

@@ -1,0 +1,15 @@
+POST https://linkedhelper.com/licenses/keys/getnewkey HTTP/1.1
+Host: linkedhelper.com
+Connection: keep-alive
+Content-Length: 94
+token: eyJlbWFpbCI6Im15cGVyc29uYWxtYWlsQGZ1Y2sub2ZmIiwicGFzc3dvcmQiOiJ0b3Bfc2VjcmV0In0=
+Origin: chrome-extension://ggmfnfhhfapdhpbhpfhllhdlimdghmaa
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+DNT: 1
+Content-Type: application/json;charset=UTF-8
+Accept: */*
+Referer: https://www.linkedin.com/search/results/people/?facetNetwork=%5B%22S%22%2C%22O%22%5D&origin=FACETED_SEARCH&page=2
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6
+
+{"installhash":"eyJpZCI6ODI5MjgwLCJzZGMiOjE1NjAzMzAwNTY1NTcsInNydiI6NzU1NDAxMzM5ODMxMTYxMjN9="}

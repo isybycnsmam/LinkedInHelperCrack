@@ -1,0 +1,48 @@
+#values was changed (privacy secure)
+#SO DATA IS INCORRECT
+there was request captured file but i didn't appended that
+from fiddler 4
+
+installhash:
+{
+    "installhash": "eyJpZCI6ODI5MjgwLCJzZGMiOjE1NjAzMzAwNTY1NTcsInNydiI6NzU1NDAxMzM5ODMxMTYxMjN9="
+}
+==
+{ 
+    "id": 829280,//uid
+    "sdc":1560330056557,//register timespan
+    "srv":75540133983116123//?  idk
+}
+
+
+to token data:
+* __version_hash_pers  <- first part
+    sample:
+        _____________________________________________________________________OWTUTjPDRC
+
+    first part is const
+        _CONST_PK_PREF: "_____________________________________________________________________"
+    second part:
+        _generate_nude_str -> _save_nude, first 10 characters
+
+
+* er_pk <- second part
+    sample:
+        X4yTURPNUFUTF4lNVE01cWpPaVluY2l3aUkyTWpMM01UTnZrb11oWldZVEJDTXdEQFakx3Y3pOejRDTXVVek52DSAdidkYURCUet2dDJZbGRFSWx0V2FzQkNMTTFFVkl0RUtnWWXpNdWN6TTE4DSRwdGtZbGRWWnNCSGNCQlNLssdlEZWdzRE4yDfdhWEJ5T3DUPAQ014Q69UNWT0J5YzM5R1p1bDRCVb0FDTXVVekxoeEdicHAzYk5KASD9pRVdkaXdDTTFZRE8zRWpOMllqT0p5ZQQQ==
+
+    this is rest of 
+        _generate_nude_str -> _save_nude, all after 10th character
+
+
+so secret key is _generate_nude_str -> _save_nude, all
+
+
+final request msg:
+{
+                  first part||second part
+    "secret_key": "OWTUTjPDRCX4yTURPNUFUTF4lNVE01cWpPaVluY2l3aUkyTWpMM01UTnZrb11oWldZVEJDTXdEQFakx3Y3pOejRDTXVVek52DSAdidkYURCUet2dDJZbGRFSWx0V2FzQkNMTTFFVkl0RUtnWWXpNdWN6TTE4DSRwdGtZbGRWWnNCSGNCQlNLssdlEZWdzRE4yDfdhWEJ5T3DUPAQ014Q69UNWT0J5YzM5R1p1bDRCVb0FDTXVVekxoeEdicHAzYk5KASD9pRVdkaXdDTTFZRE8zRWpOMllqT0p5ZQQQ=="
+}
+
+
+
+installhash is returned from /register request

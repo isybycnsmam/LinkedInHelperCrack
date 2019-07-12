@@ -1,0 +1,9 @@
+to crack you must replace body of function init_public_key
+
+cracked function
+init_public_key: function () {
+    var e = this._generate_nude_str();
+    this._save_nude(e)
+    this.public_key = e;
+    this.public_key_obj = this._get_public_key_object()
+}

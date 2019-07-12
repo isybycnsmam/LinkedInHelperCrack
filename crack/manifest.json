@@ -1,0 +1,38 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/ext_background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon-19.png",
+         "38": "images/icon-38.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "__MSG_toolbar_button__"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "styles/main_lc128xe4we.css" ],
+      "js": [ "js/er_injected_lc128xe4we.js", "js/erlhserver_lc128xe4we.js" ],
+      "matches": [ "http://linkedin.com/*", "https://linkedin.com/*", "http://*.linkedin.com/*", "https://*.linkedin.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://linkedhelper.com https://freegeoip.net https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Cracked by isy & Add thousands targeted contacts, Auto-Visit & save profiles to CSV File, Sequential messaging, Improve your profile",
+   "externally_connectable": {
+      "matches": [ "*://*.linkedin.com/*", "*://linkedin.com/*" ]
+   },
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png"
+   },
+   "manifest_version": 2,
+   "name": "ISY Linked Helper - automate work with LinkedIn",
+   "permissions": [ "webRequest", "webRequestBlocking", "storage", "unlimitedStorage", "http://linkedin.com/*", "https://linkedin.com/*", "http://*.linkedin.com/*", "https://*.linkedin.com/*", "http://www.linkedin.com/*", "https://www.linkedin.com/*" ],
+   "short_name": "Linked Helper",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "12.8.4.9",
+   "web_accessible_resources": [ "js/er_inj_lc128xe4we.js", "js/jquery_lc128xe4we.js", "styles/er_inj_lc128xe4we.css", "styles/ionicons_lc128xe4we.css", "fonts/ionicons.lc128xe4we.eot", "fonts/ionicons.lc128xe4we.svg", "fonts/ionicons.lc128xe4we.ttf", "fonts/ionicons.lc128xe4we.woff" ]
+}
